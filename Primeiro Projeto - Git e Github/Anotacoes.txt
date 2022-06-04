@@ -1,0 +1,2 @@
+Git clone: Clonar repositorio do github para o git local.
+Git status: Informa o status das alterações realizadas.
