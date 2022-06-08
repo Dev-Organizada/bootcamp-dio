@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nathaly Rodrigues</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+ <body>
+	<header>
+		<h1 id="title">Nathaly Rodrigues</h1>
+		<img src="C:\Users\Igor Souza\Downloads\WhatsApp Image 2022-06-03 at 20.39.29.jpeg" alt="Foto de Nathaly Rodrigues" class="post_img">
+	</header>
+	<section>
+		<header>
+			<h2 class="subtitle"> Posts </h2>
+		</header>
+		<article class="post">
+			<header>
+				<h3 class="post_title"> Post #1 </h3>
+				<p class="post_content">
+					Desenvolvedora backend, com conhecimentos na linguagem de programação PL/SQL, juntamente com Oracle Forms e Reports. 
+					Formada em Analise e desenvolvimento de sistema, pós graduada em Analise de Dados e estudante de Python.
+					Tenho conhecimentos em sistemas e processos hospitalares, principalmente na área de exames, onde atuo como analista de sistema, 
+					utilizando metodologias ágeis para melhorar no processo e qualidade das entregas.
+					Sou criadora de conteúdo no Instagram e YouTube: <a href="https://www.youtube.com/channel/UCtBnZMzIiImsglgieFTF6LA" target="_blank"> @dev.organizada </a>, 
+					onde faço postagem sobre programação, organização e estudos, além de ter um quadro onde convido profissionais de diversas área a trocar conhecimento
+					através de lives no canal do YouTube.
+					Participo da comunidade das PyLadies de Fortaleza, ajudando, recentemente, com o planejamento e execução dos eventos.
+					Email para contato: <a href="mailto:nathaly.rodrigues@hotmail.com">clique aqui</a>.
+				</p>
+			</header>
+		</article>
+	</section>
+	<footer>
+		<ul>
+			<li>
+				<a href="mailto:nathaly.rodrigues@hotmail.com">nathaly.rodrigues@hotmail.com</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/nathalyrodrigues/" target="_blank">Linkedin</a>
+			</li>
+			<li>
+				<a href="https://github.com/Dev-Organizada" target="_blank">GitHub</a>
+			</li>
+		</ul>
+	</footer>
+ </body>
+</html>
