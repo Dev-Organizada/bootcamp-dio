@@ -1,0 +1,116 @@
+<!-- Align content
+
+´´E a propriedade responsavel por tratar o alinhamento das linhas do container em relaçao
+ao eixo vertical do container.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fundamentos - Align- content</title>
+	<style>
+		.container{
+			height: 350px;
+			max-width: 350px;
+			display: flex;
+			flex-wrap: wrap;
+			border: 1px solid black;
+		}
+		.item{
+			background-color: green;
+			padding: 0 5px;
+			margin: 5px;
+			flex: 1;
+			text-align: center;
+			color: white;
+		}
+		.stretch{
+			align-content: stretch;
+		}
+		.center{
+			align-content: center;
+		}
+		.start{
+			align-content: flex-start;
+		}
+		.end{
+			align-content: flex-end;
+		}
+		.space-around{
+			align-content: space-around;
+		}
+		.space-between{
+			align-content: space-between;
+		}
+	</style>
+</head>
+<body>
+	<p>stretch</p>
+	<div class="container stretch">
+		<div class="item">Texto 01</div>
+		<div class="item">Texto 02</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao</div>
+		<div class="item">Texto 03</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao. Esse texto ´´e maior que os demais, ou nao</div>	
+		<div class="item">Texto 04</div>
+		<div class="item">Texto 05</div>
+	</div>
+	
+	<p>center</p>
+	<div class="container center">
+		<div class="item">Texto 01</div>
+		<div class="item">Texto 02</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao</div>
+		<div class="item">Texto 03</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao. Esse texto ´´e maior que os demais, ou nao</div>	
+		<div class="item">Texto 04</div>
+		<div class="item">Texto 05</div>
+	</div>
+	
+	<p>flex-start</p>
+	<div class="container start">
+		<div class="item">Texto 01</div>
+		<div class="item">Texto 02</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao</div>
+		<div class="item">Texto 03</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao. Esse texto ´´e maior que os demais, ou nao</div>	
+		<div class="item">Texto 04</div>
+		<div class="item">Texto 05</div>
+	</div>
+	
+	<p>flex-end</p>
+	<div class="container end">
+		<div class="item">Texto 01</div>
+		<div class="item">Texto 02</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao</div>
+		<div class="item">Texto 03</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao. Esse texto ´´e maior que os demais, ou nao</div>	
+		<div class="item">Texto 04</div>
+		<div class="item">Texto 05</div>
+	</div>
+	
+	<p>space-around</p>
+	<div class="container space-around">
+		<div class="item">Texto 01</div>
+		<div class="item">Texto 02</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao</div>
+		<div class="item">Texto 03</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao. Esse texto ´´e maior que os demais, ou nao</div>	
+		<div class="item">Texto 04</div>
+		<div class="item">Texto 05</div>
+	</div>
+	
+	<p>space-between</p>
+	<div class="container space-between">
+		<div class="item">Texto 01</div>
+		<div class="item">Texto 02</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao</div>
+		<div class="item">Texto 03</div>
+		<div class="item">Esse texto ´´e maior que os demais, ou nao. Esse texto ´´e maior que os demais, ou nao</div>	
+		<div class="item">Texto 04</div>
+		<div class="item">Texto 05</div>
+	</div>
+</body>
+</html>	
